@@ -1,0 +1,32 @@
+<html>
+    <head><title>sign-up page</title>
+       <link rel="stylesheet" href="style1.css">
+       <meta name="viewport" content="width=device-width, initial-scale=1" />
+        </head>
+
+        <body>
+      <center>
+            <div class="main">
+                <div class="form">
+
+            <form class="register">
+                <input type="text" placeholder="Username" required>
+                <input type="text" placeholder="Email-id" required>
+                <input type="password" placeholder="Password" required >
+                <button>CREAT ACCOUNT</button>
+                <p class="messege">Already have an account? <a href="#">Sign in</a></p></form>
+
+           <form class="signin">
+                <input type="text" placeholder="Username" required>
+                <input type="password" placeholder="Password" required>
+                <button>Sign in</button>
+                <p class="messege">Not registered?<a href="#"> Register here</a></p></form>
+            </form></div></div>
+
+            <script src="jquery-3.2.1.min.js"></script>
+            <script>
+                $('.messege a').click(function(){
+                    $('form').animate({height:"toggle",opacity:"toggle"},"slow");
+                });
+            </script></center></body>
+</html>

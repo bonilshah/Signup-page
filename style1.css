@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(59,89,152);
+}
+.main{
+   width: 30%;
+    padding: 10%;
+    margin: auto;
+}
+.form{
+    padding: 45px;
+    background: white;
+    margin: 0 auto 100px;
+    text-align: center;
+}
+input{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 14px;
+    border: 0;
+    background: #e7e3e3;
+
+}
+button{
+    width:100%;
+    height: 40px;
+    background-color: rgb(59,89,152);
+    border: 0;
+    color: white;
+    48, 158, 48)
+}
+.messege{
+    font-size: 18px;
+    margin-top: 15px;
+}
+.register{
+    display: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(59,89,152);
+}
